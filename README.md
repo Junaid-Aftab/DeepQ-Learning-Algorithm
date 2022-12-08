@@ -14,6 +14,8 @@ A description of the various files uploaded is as follows:
 
 1. The file ```grid.py``` generates a two-dimensional grid wolrd populated with the virtual agent, enemies, food and obstacles/walls.
 
+2. [My Image](images/grid.png)
+
 ## Getting Started
 
 ### Dependencies
