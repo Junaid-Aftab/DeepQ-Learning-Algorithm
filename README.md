@@ -2,11 +2,14 @@
 
 # Project Title
 
-Simple overview of use/purpose.
+A Comparison Between Recurrent and Non-recurrent
+Deep Q-Networks in a GridWorld Survival Game
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This repository contains code for the course project for the course CMSC 727: Neural Modelling. Our course project primarily involved:
+
+
 
 ## Getting Started
 
