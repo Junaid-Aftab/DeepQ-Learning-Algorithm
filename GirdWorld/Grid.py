@@ -15,7 +15,7 @@ class World():
                  wall_reward, dead_reward, surv_reward,
                  enemy_reward,train):
         
-        self.N             = worldsize.                       # Dimensions of the NumPy matrix
+        self.N             = worldsize                        # Dimensions of the NumPy matrix
         self.fill          = frac_fill                        # Fraction of the NumPy matrix filled with obstacles/walls
         self.E             = num_enemies                      # Number of enemies populating the world
         self.F             = num_food                         # Number of food scattered throughout the world
