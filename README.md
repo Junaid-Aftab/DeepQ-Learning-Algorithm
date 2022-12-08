@@ -12,7 +12,11 @@ high rate of “survival” (subject to our definition of this objective) in ran
 
 A description of the various files uploaded is as follows:
 
-1. The file ```grid.py``` generates a two-dimensional grid wolrd populated with the virtual agent, enemies, food and obstacles/walls.
+1. The file ```grid.py``` generates a two-dimensional grid wolrd populated with the virtual agent, enemies, food and obstacles/walls. 
+   The grid.py file takes in the following parameters.
+   
+    ** How/where to download your program
+   
 
 2. [My Image](images/grid.png)
 
