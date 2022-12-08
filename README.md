@@ -17,19 +17,19 @@ A description of the various files uploaded is as follows:
    
    - `worldsize:` Dimensions of the grid world
    - `frac_fill:` Fraction filled with walls
-   `num_enemies:` Number of enemies
-   `num_food:` Number of food
-   `input_energy:` Agent's input energy
-   `food_energy:` Energy per food
-   `s_range:` Enemy sight range when vision not blocked by wall
-   `agent_s_range:` Agent sight range
+   - `num_enemies:` Number of enemies
+   - `num_food:` Number of food
+   - `input_energy:` Agent's input energy
+   - `food_energy:` Energy per food
+   - `s_range:` Enemy sight range when vision not blocked by wall
+   - `agent_s_range:` Agent sight range
 
-   `move_reward:` Reward for moving
-   `food_reward:` Reward for acquiring food
-   `wall_reward:` Reward for hitting wall
-   `death_reward:` Reward for dying
-   `survive_reward:` Reward for surviving
-   `enemy_reward:` Reward for being eaten by enemy
+   - `move_reward:` Reward for moving
+   - `food_reward:` Reward for acquiring food
+   - `wall_reward:` Reward for hitting wall
+   - `death_reward:` Reward for dying
+   - `survive_reward:` Reward for surviving
+   - `enemy_reward:` Reward for being eaten by enemy
    
     ** How/where to download your program
    
