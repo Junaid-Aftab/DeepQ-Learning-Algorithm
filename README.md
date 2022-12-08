@@ -30,11 +30,11 @@ A description of the various files uploaded is as follows:
    - `death_reward:` Reward for dying
    - `survive_reward:` Reward for surviving
    - `enemy_reward:` Reward for being eaten by enemy
-   
-    ** How/where to download your program
+
+   Here is a sample [image](images/grid.png) of what the `gird.py` file geneates.
    
 
-2. [My Image](images/grid.png)
+2. 
 
 ## Getting Started
 
