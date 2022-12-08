@@ -58,7 +58,7 @@ class World():
         
         # Possible movement directions or "actions" (0-3). Assume that staying in the same spot is not a possible action
         
-        self.actions = [[-1,0],[0,1],[1,0],[0,-1]] # Possible reward for hiding: stay in place and be "invisible" to the enemy
+        self.actions = [[-1,0],[0,1],[1,0],[0,-1]] 
                 
         # Initialize positions of agent, enemies, food as a nested list for modular access later
         
@@ -194,6 +194,7 @@ class World():
                 reward = self.dead_reward
         
         self.reward += reward
+        
         return reward
     
     # Update all enemy positions (includes naive hunting AI)
@@ -210,19 +211,28 @@ class World():
             # Check if the agent is within range
             
             if np.linalg.norm(vec) <= self.s_range:
+                
                 div = np.max(np.abs(vec))
+                
                 for j in range(1, div):
+                    
                     new = tuple(np.add(pos, np.array(np.round([vec[0]*j/div, vec[1]*j/div]), dtype='int')))
                     if self.world[new] == self.wall: acs = self.actions; break
+                    
                     # If there's a wall in the line of sight, move randomly
             
             # If the agent is not within range, move randomly
+            
             else: acs = self.actions
             
             # Shuffle possible actions and look for open space to move
+            
             np.random.shuffle(acs)
+            
             for ac in acs:
+                
                 if self.world[tuple(np.add(pos, ac))] in [self.empty, self.food]:
+                    
                     self.movement(self.enemy_pos, i, ac)
                     break
             
@@ -236,6 +246,7 @@ class World():
 
     # Display the world
     def display_world(self, epoch):
+        
         plt.figure(figsize=(10,10))
         colors = ["white", "red", "lime", "black", "grey"]
         palette = sns.color_palette(colors)
