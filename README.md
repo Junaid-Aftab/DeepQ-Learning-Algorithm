@@ -15,22 +15,21 @@ A description of the various files uploaded is as follows:
 1. The file ```grid.py``` generates a two-dimensional grid wolrd populated with the virtual agent, enemies, food and obstacles/walls. 
    The grid.py file takes in the following parameters:
    
-   `worldsize:`           #World size 
-   
-   `frac_fill:`          #Fraction of walls
-   `num_enemies:`            #Number of enemies
-   `num_food:`            #Number of food
-   `input_energy:`          #Input energy
-   `food_energy:`   #Food energy
-   `s_range:`          #Enemy sight range when vision not blocked by wall
-   `agent_s_range:`           #Agent sight range
+   `worldsize:` Dimensions of the grid world
+   `frac_fill:` Fraction filled with walls
+   `num_enemies:` Number of enemies
+   `num_food:` Number of food
+   `input_energy:` Agent's input energy
+   `food_energy:` Energy per food
+   `s_range:` Enemy sight range when vision not blocked by wall
+   `agent_s_range:` Agent sight range
 
-   `move_reward:`           #reward for moving
-   `food_reward:`          #reward for acquiring food
-   `wall_reward:`          #reward for hitting wall
-   `death_reward:`          #reward for dying
-   `survive_reward:`          #reward for surviving
-   `enemy_reward:`            #reward for surviving
+   `move_reward:` Reward for moving
+   `food_reward:` Reward for acquiring food
+   `wall_reward:` Reward for hitting wall
+   `death_reward:` Reward for dying
+   `survive_reward:` Reward for surviving
+   `enemy_reward:` Reward for being eaten by enemy
    
     ** How/where to download your program
    
