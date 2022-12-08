@@ -10,7 +10,7 @@ high rate of “survival” (subject to our definition of this objective) in ran
 
 A description of the various files uploaded is as follows:
 
-1. 
+1. The file ```grid.py```
 
 ## Getting Started
 
