@@ -16,20 +16,20 @@ A description of the various files uploaded is as follows:
    The grid.py file takes in the following parameters:
    
    `worldsize:`           #World size
-   frac_fill:          #Fraction of walls
-   num_enemies:            #Number of enemies
-   num_food:            #Number of food
-   input_energy:          #Input energy
-   food_energy:   #Food energy
-   s_range:          #Enemy sight range when vision not blocked by wall
-   agent_s_range:           #Agent sight range
+   `frac_fill:`          #Fraction of walls
+   `num_enemies:`            #Number of enemies
+   `num_food:`            #Number of food
+   `input_energy:`          #Input energy
+   `food_energy:`   #Food energy
+   `s_range:`          #Enemy sight range when vision not blocked by wall
+   `agent_s_range:`           #Agent sight range
 
-   move_reward:           #reward for moving
-   food_reward:          #reward for acquiring food
-   wall_reward:          #reward for hitting wall
-   death_reward:          #reward for dying
-   survive_reward:          #reward for surviving
-   enemy_reward:            #reward for surviving
+   `move_reward:`           #reward for moving
+   `food_reward:`          #reward for acquiring food
+   `wall_reward:`          #reward for hitting wall
+   `death_reward:`          #reward for dying
+   `survive_reward:`          #reward for surviving
+   `enemy_reward:`            #reward for surviving
    
     ** How/where to download your program
    
