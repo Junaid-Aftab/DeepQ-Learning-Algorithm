@@ -1,9 +1,6 @@
 # deepq-learning-algorithm
 
-# Project Title
-
-A Comparison Between Recurrent and Non-recurrent
-Deep Q-Networks in a GridWorld Survival Game
+# A Comparison Between Recurrent and Non-recurrentDeep Q-Networks in a GridWorld Survival Game
 
 ## Description
 
