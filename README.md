@@ -5,12 +5,12 @@
 ## Description
 
 This repository contains code we implemented as part of the couse project for the course CMSC 727: Neural Modelling taught by James Reggia at University of Maryland, College Park. We implemented the deep Q-learning algorithm to examine the the discrepancy between recurrent and non-recurrent neural
-networks for the purpose of Q-learning in a survival-focused GridWorld game. The
-empirical results of our study compare the two architectures’ ability to guarantee a
-high rate of “survival” (subject to our definition of this objective) in randomly generated grid environments that share basic inherent properties. Through initial tests, we demonstrate that both the recurrent and non-recurrent neural network architectures
-can learn survival behavior under the given game conditions, with the non-recurrent
-network achieving better results overall in our case.
+networks for the purpose of Q-learning in a survival-focused GridWorld game. Our study compared the two architectures’ ability to guarantee a
+high rate of “survival” (subject to our definition of this objective) in randomly generated grid environments that share basic inherent properties.
 
+A description of the various files uploaded is as follows:
+
+1. 
 
 ## Getting Started
 
