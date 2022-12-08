@@ -4,13 +4,15 @@
 
 ## Description
 
-This repository contains code we implemented as part of the couse project for the course CMSC 727: Neural Modelling taught by James Reggia at University of Maryland, College Park. We implemented the deep Q-learning algorithm to examine the the discrepancy between recurrent and non-recurrent neural
+This repository contains code we implemented as part of the couse project for the course CMSC 727: Neural Modelling taught by James Reggia at University of Maryland, College Park. 
+
+We implemented the deep Q-learning algorithm to examine the the discrepancy between recurrent and non-recurrent neural
 networks for the purpose of Q-learning in a survival-focused GridWorld game. Our study compared the two architectures’ ability to guarantee a
 high rate of “survival” (subject to our definition of this objective) in randomly generated grid environments that share basic inherent properties.
 
 A description of the various files uploaded is as follows:
 
-1. The file ```grid.py```
+1. The file ```grid.py``` generates a two-dimensional grid wolrd populated with the virtual agent, enemies, food and obstacles/walls.
 
 ## Getting Started
 
