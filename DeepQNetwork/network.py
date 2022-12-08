@@ -24,10 +24,10 @@ class DeepQNetwork(nn.Module):
 
         self.conv1 = nn.Conv2d(1, 64, kernel_size=1, stride=1)
         self.conv2 = nn.Conv2d(64,128, kernel_size=1, stride=1)
-        self.conv3 = nn.Conv2d(4, 2, kernel_size=3, stride=1, padding=1) # not used rn
-        self.conv4 = nn.Conv2d(2, 1, kernel_size=3, stride=1, padding=1) # not used rn
+        self.conv3 = nn.Conv2d(4, 2, kernel_size=3, stride=1, padding=1)        # not used right now
+        self.conv4 = nn.Conv2d(2, 1, kernel_size=3, stride=1, padding=1)        # not used right now
         self.fc5   = nn.Linear((self.input_dims)**2 * 128, self.num_actions)
-        self.fc6   = nn.Linear(self.input_dims, self.num_actions)        # not used rn
+        self.fc6   = nn.Linear(self.input_dims, self.num_actions)               # not used right now
 
         # Initialize parameters
         nn.init.xavier_uniform_(self.conv1.weight)
