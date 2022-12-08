@@ -15,7 +15,8 @@ A description of the various files uploaded is as follows:
 1. The file ```grid.py``` generates a two-dimensional grid wolrd populated with the virtual agent, enemies, food and obstacles/walls. 
    The grid.py file takes in the following parameters:
    
-   `worldsize:`           #World size
+   `worldsize:`           #World size 
+   
    `frac_fill:`          #Fraction of walls
    `num_enemies:`            #Number of enemies
    `num_food:`            #Number of food
