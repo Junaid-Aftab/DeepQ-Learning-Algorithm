@@ -205,8 +205,8 @@ class Agent():
                 # We now perform gradient descent on the minibatch.
                 loss = nn.MSELoss()(y,Q)
                 
-                if i > 5:
-                    loss_epochs.append(loss.cpu().detach().numpy())
+                #if i > 5:
+                loss_epochs.append(loss.cpu().detach().numpy())
                 
                 optimizer.zero_grad()
                 loss.backward()
