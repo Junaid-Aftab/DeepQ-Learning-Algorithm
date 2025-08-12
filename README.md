@@ -1,7 +1,5 @@
 # deepq-learning-algorithm
 
-# A Comparison Between Recurrent and Non-recurrent Deep Q-Networks in a GridWorld Survival Game
-
 ## Description
 
 This repository contains code we implemented as part of the couse project for CMSC 727: Neural Modelling taught by James Reggia at University of Maryland, College Park. 
