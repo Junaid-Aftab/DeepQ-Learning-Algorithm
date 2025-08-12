@@ -1,4 +1,4 @@
-# deepq-learning-algorithm
+# DeepQ-Learning-Algorithm
 
 ## Description
 
